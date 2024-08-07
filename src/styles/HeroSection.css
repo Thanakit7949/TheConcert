@@ -1,0 +1,26 @@
+.hero-section {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+  
+  .tab.active {
+    background-color: red;
+    color: white;
+  }
+  

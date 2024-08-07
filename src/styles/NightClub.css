@@ -1,0 +1,58 @@
+.night-club {
+  padding: 20px;
+  background-color: #000000;
+  /* color: white; */
+}
+.night-club h1,p{
+  color: white;
+  /* color: white; */
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d32f2f;
+  color: white;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #ff5252;
+}
+
+.nightclub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.club-item {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.club-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.club-info {
+  padding: 10px 0;
+}

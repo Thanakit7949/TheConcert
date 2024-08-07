@@ -1,0 +1,77 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Left section of the navbar */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo styles */
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+/* Links inside the navbar */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Adjust as needed */
+  padding: 0;
+  margin: 0;
+}
+
+/* List item styles */
+.navbar-links li {
+  margin: 0;
+}
+
+/* Anchor tags inside the links */
+.navbar-links a {
+  text-decoration: none;
+  color: white; /* Change to your desired color */
+  padding: 10px 15px; /* Adjust padding as needed */
+  display: block; /* Makes the entire area clickable */
+}
+
+/* Hover effect for anchor tags */
+.navbar-links a:hover {
+  background-color: #333; /* Change to your desired hover color */
+  color: #007bff; /* Change to your desired hover text color */
+}
+
+/* Actions section (buttons) */
+.navbar-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* General button styles */
+.btn {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Primary button styles */
+.btn-primary {
+  background-color: red;
+  color: white;
+}
+
+/* Secondary button styles */
+.btn-secondary {
+  background-color: blue;
+  color: white;
+}

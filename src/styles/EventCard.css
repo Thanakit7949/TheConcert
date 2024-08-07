@@ -1,0 +1,29 @@
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+.event-images-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.event-card h3 {
+  margin: 16px 0;
+  font-size: 1.2em;
+  color: #333;
+}
